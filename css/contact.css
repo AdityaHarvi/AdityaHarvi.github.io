@@ -102,6 +102,27 @@
     transform: translate(5px, 5px);
 }
 
+@media (max-width: 1000px) {
+    #contact-page .contact-title {
+        margin-top: 50px;
+        margin-left: 15%;
+        font-size: 2.4rem;
+    }
+
+    #contact-page .contact-body {
+        margin-top: 30px;
+        font-size: 1.3rem;
+    }
+
+    #contact-page ul {
+        margin-left: 70px;
+    }
+
+    #contact-page .resume-button {
+        margin-left: 130px;
+    }
+}
+
 @media (max-width: 632px) {
     #contact:target .page#contact-page {
         transform: translateX(-280%);
@@ -124,10 +145,6 @@
     }
 
     #contact-page .resume-button {
-        font-size: 1.25rem;
-        color: #fdc029;
-        max-width: 500px;
-        margin-top: 80px;
         margin-left: 50px;
     }
 }
