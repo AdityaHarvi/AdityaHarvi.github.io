@@ -52,7 +52,7 @@ function loadExperience(company) {
     jobTitle.innerHTML = job.jobTitle;
 
     let jobDate = document.createElement("span");
-    jobDate.setAttribute("style", "details-title-date");
+    jobDate.setAttribute("class", "details-title-date");
     jobDate.innerHTML = job.date;
 
     jobTitleLocation.innerHTML = `• ${job.company} •`;
