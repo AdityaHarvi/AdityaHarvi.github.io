@@ -1,0 +1,66 @@
+#experience-page {
+    left: 100%;
+    background: #161616;
+    z-index: 2;
+}
+
+#experience-page ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#experience:target .page#experience-page {
+    transform: translateX(-90%);
+}
+
+#experience-page .experience-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5rem;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+/* Cards */
+#experience-page .custom-card {
+    font-family: 'Corben', sans-serif;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #0d0d0d;
+    transition: 0.3s;
+    width: 400px;
+    height: 300px;
+}
+#experience-page .custom-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(235, 163, 30, 0.7);
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#experience-page .custom-card:hover > hr {
+    width: 50%;
+}
+#experience-page .custom-card-title {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+#experience-page .custom-card-body-header {
+    margin-top: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fdc029;
+}
+#experience-page .custom-card-body {
+    margin-top: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+}
+#experience-page hr {
+    width: 30%;
+    margin-left: 30px;
+    color: #fdc029;
+    height: 3px;
+    opacity: 0.9;
+}

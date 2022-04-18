@@ -1,0 +1,83 @@
+#project-page {
+    left: 200%;
+    background: #141414;
+    z-index: 3;
+}
+
+#projects:target .page#project-page {
+    transform: translateX(-190%);
+}
+
+#project-page ul {
+    list-style: none;
+}
+
+#project-page a {
+    text-decoration: none;
+    color: white;
+}
+
+#project-page .project-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5rem;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+#project-page .project-body {
+    margin-top: 100px;
+}
+
+#project-page .project-container {
+    border: 0.3px solid gray;
+    max-width: 80%;
+    padding: 10px;
+    background-color: #1f1f1f;
+    margin-top: 30px;
+}
+
+#project-page .project-header {
+    font-family: 'Corben', sans-serif;
+    font-size: 1.5rem;
+}
+
+#project-page .project-date {
+    font-family: 'Corben', sans-serif;
+    font-size: 1rem;
+    text-align: right;
+    opacity: 0.7;
+}
+
+#project-page .project-description {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.1rem;
+}
+
+#project-page .project-button {
+    font-family: 'Corben', sans-serif;
+    display: inline-block;
+    border: 0.3px solid #fdc029;
+    background-color: #141414;
+    border-radius: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#project-page .project-button:hover {
+    border-radius: 5px;
+}
+
+#project-page .project-tech {
+    font-family: 'Corben', sans-serif;
+    border: 0.3px solid #fdc029;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 13px;
+    font-size: 0.8rem;
+    float: right;
+    color: orange;
+    opacity: 0.7;
+}

@@ -1,0 +1,53 @@
+
+.icon {
+    color: orange;
+}
+
+#custom-navbar ul {
+    position: fixed;
+    margin: auto;
+    width: 10%;
+    text-align: center;
+    z-index: 100;
+}
+
+#custom-navbar ul li {
+    margin-bottom: 40px;
+}
+
+#custom-navbar ul .icon:hover {
+    opacity: 0.5;
+}
+
+/* Sets the background of the navbar to be black when on a different page */
+#projects:target .page#home-page, 
+#experience:target .page#home-page,
+#extra-details:target .page#home-page,
+#contact:target .page#home-page {
+    background: black;
+}
+
+/* Applies blur to home screen if on another page */
+#projects:target .page#home-page .container, 
+#experience:target .page#home-page .container,
+#extra-details:target .page#home-page .container,
+#contact:target .page#home-page .container {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+/* Shrinks the icons once clicked */
+#projects:target ul .icon,
+#experience:target ul .icon,
+#contact:target ul .icon {
+    transform: scale(.7); 
+    transition-delay: .25s;
+}
+
+/* Enlargens the icon once clicked */
+#projects:target #projects,
+#experience:target #experience,
+#contact:target #contact {
+    transform: scale(1.2) !important;
+    color: #fdc029 !important;
+}
