@@ -127,6 +127,10 @@
         margin-left: 100px;
     }
 
+    #home-page .typewriter {
+        font-size: 1rem;
+    }
+
     #home-page .social-media ul {
         margin-left: 90px;
     }
