@@ -133,4 +133,8 @@ function loadProjects() {
 
         projectLocation.appendChild(listElement);
     }
+
+    let endOfPage = document.createElement("div");
+    endOfPage.setAttribute("id", "endof-projects");
+    projectLocation.appendChild(endOfPage);
 }
