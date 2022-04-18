@@ -117,3 +117,17 @@
     from {transform: rotateZ(0deg);}
     to {transform: rotateZ(-10deg);}
 }
+
+@media (max-width: 632px) {
+    #home-page .diamonds {
+        display: hidden;
+    }
+
+    #home-page .main-title-container {
+        margin-left: 100px;
+    }
+
+    #home-page .social-media ul {
+        margin-left: 90px;
+    }
+}

@@ -15,6 +15,10 @@ html, body, section, .page {
     overflow-x: hidden;
 }
 
+body {
+    position: relative;
+}
+
 .page {
     position: absolute;
 }
@@ -40,14 +44,4 @@ html, body, section, .page {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-
-.credits {
-    position: fixed;
-    font-family: 'Montserrat Alternates', sans-serif;
-    bottom: 0;
-    z-index: 20;
-    color: white;
-    width: 10%;
-    text-align: center;
 }

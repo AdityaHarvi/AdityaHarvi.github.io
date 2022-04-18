@@ -30,6 +30,9 @@
     font-weight: 900;
     color: #df861d;
 }
+#details-page .details-title-date {
+    font-size: 1rem;
+}
 
 #details-page .details-body-container {
     font-family: 'Corben', sans-serif;
@@ -52,4 +55,38 @@
     height: 0;
     overflow: hidden;
     margin-top: 30px;
+}
+
+@media (max-width: 632px) {
+    #extra-details:target .page#details-page {
+        transform: translateX(-380%);
+    }
+
+    #details-page img {
+        max-width: 80%;
+    }
+
+    #details-page .details-title {
+        font-size: 1.5rem;
+        margin-left: -80px;
+    }
+    
+    #details-page .details-title-emphasis {
+        font-size: 1.1rem;
+    }
+
+    #details-page .details-title-date {
+        font-size: 0.9rem;
+    }
+
+    #details-page .details-body-container {
+        font-size: 1.4rem;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    #details-page .details-body {
+        font-size: 1rem;
+        max-width: 70%;
+    }
 }

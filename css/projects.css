@@ -81,3 +81,32 @@
     color: orange;
     opacity: 0.7;
 }
+
+@media (max-width: 632px) {
+    #projects:target .page#project-page {
+        transform: translateX(-180%);
+    }
+
+    #project-page .project-title {
+        font-size: 2.5rem;
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+
+    #project-page .project-body {
+        margin-top: 80px;
+    }
+
+    #project-page .project-container {
+        max-width: 70%;
+        padding: 10px;
+    }
+
+    #project-page .project-description {
+        font-size: 1rem;
+    }
+
+    #project-page .project-button {
+        font-size: 0.8rem;
+    }
+}

@@ -19,6 +19,16 @@
     opacity: 0.5;
 }
 
+.credits {
+    position: fixed;
+    font-family: 'Montserrat Alternates', sans-serif;
+    bottom: 0;
+    z-index: 20;
+    color: white;
+    width: 10%;
+    text-align: center;
+}
+
 /* Sets the background of the navbar to be black when on a different page */
 #projects:target .page#home-page, 
 #experience:target .page#home-page,
@@ -50,4 +60,35 @@
 #contact:target #contact {
     transform: scale(1.2) !important;
     color: #fdc029 !important;
+}
+
+@media (max-width: 632px) {
+    #custom-navbar ul {
+        width: 70px;
+    }
+
+    #custom-navbar i {
+        transform: scale(.8);
+    }
+
+    /* Shrinks the icons once clicked */
+    #projects:target ul .icon,
+    #experience:target ul .icon,
+    #contact:target ul .icon {
+        transform: scale(.6); 
+        transition-delay: .25s;
+    }
+
+    /* Enlargens the icon once clicked */
+    #projects:target #projects,
+    #experience:target #experience,
+    #contact:target #contact {
+        transform: scale(1) !important;
+        color: #fdc029 !important;
+    }
+
+    .credits {
+        left: 15px;
+        font-size: 0.8rem;
+    }
 }
