@@ -10,8 +10,15 @@
 #home-page .main-title-container {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 3.5rem;
-    margin-top: 35%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
     margin-left: 200px;
+}
+
+#home-page .extra-centering {
+    position: relative;
+    height: 100vh;
 }
 
 #home-page .main-title {
@@ -50,7 +57,9 @@
 /* Social media icon styles */
 #home-page .social-media ul {
     margin-left: 200px;
-    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(200%);
     display: flex;
 }
 #home-page .social-media ul li {
@@ -92,9 +101,10 @@
 
 /* Diamond graphic */
 #home-page .diamonds {
-    position: relative;
     left: 400px;
-    top: -400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
     opacity: 0.7;
 }
 #home-page .diamonds #top-diamond {
@@ -118,11 +128,13 @@
     to {transform: rotateZ(-10deg);}
 }
 
-@media (max-width: 632px) {
+@media (max-width: 991px), (max-height: 571px) {
     #home-page .diamonds {
-        display: hidden;
+        display: none;
     }
+}
 
+@media (max-width: 632px) {
     #home-page .main-title-container {
         margin-left: 100px;
     }

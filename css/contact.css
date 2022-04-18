@@ -120,7 +120,7 @@
     }
 
     #contact-page ul {
-        margin-left: 10px;
+        margin-left: -10px;
     }
 
     #contact-page .resume-button {
@@ -128,6 +128,6 @@
         color: #fdc029;
         max-width: 500px;
         margin-top: 80px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 }
