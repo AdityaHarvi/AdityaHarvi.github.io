@@ -1,6 +1,6 @@
 #project-page {
     left: 200%;
-    background: #141414;
+    background: #1f1f1f;
     z-index: 3;
 }
 
@@ -32,8 +32,9 @@
     border: 0.3px solid gray;
     max-width: 80%;
     padding: 10px;
-    background-color: #1f1f1f;
+    background-color: #282828;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #project-page .project-header {
@@ -57,7 +58,7 @@
     font-family: 'Corben', sans-serif;
     display: inline-block;
     border: 0.3px solid #fdc029;
-    background-color: #141414;
+    background-color: #1f1f1f;
     border-radius: 25px;
     padding: 5px 10px;
     cursor: pointer;
@@ -79,7 +80,7 @@
     font-size: 0.8rem;
     float: right;
     color: orange;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 @media (max-width: 632px) {
