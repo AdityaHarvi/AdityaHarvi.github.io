@@ -39,25 +39,28 @@
                         <!-- | NavBar | -->
                         <div id="custom-navbar" >
                             <ul class="nav flex-column vertical-center">
-                                <li class="nav-item">
+                                <li>
                                     <a href="#home">
-                                        <i class="icon fa fa-home fa-2x" on-hover="Home"></i>
+                                        <i class="icon navIcon fa fa-home fa-2x"></i>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li>
                                     <a href="#experience">
-                                        <i class="icon fa fa-briefcase fa-2x" id="experience" on-hover="experience"></i>
+                                        <i class="icon navIcon fa fa-briefcase fa-2x" id="experience"></i>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li>
                                     <a href="#projects">
-                                        <i class="icon fa fa-gamepad fa-2x" id="projects" on-hover="projects"></i>
+                                        <i class="icon navIcon fa fa-gamepad fa-2x" id="projects"></i>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li>
                                     <a href="#contact">
-                                        <i class="icon fa fa-comments fa-2x" id="contact" on-hover="contact"></i>
+                                        <i class="icon navIcon fa fa-comments fa-2x" id="contact"></i>
                                     </a>
+                                </li>
+                                <li>
+                                    <i class="icon fa fa-sun-o fa-2x" onclick="swapColor()"></i>
                                 </li>
                             </ul>
                         </div>
@@ -76,7 +79,7 @@
                                         Hey,<br>
                                         I'm <span class="main-title">Aditya</span>.<br>
                                         <div class="typewriter">
-                                            A <span style="color: #df861d; font-weight: 600;">software</span> dev :)
+                                            A <span class="typewriter-emphasis">software</span> dev :)
                                         </div>
                                     </div>
 
@@ -160,7 +163,7 @@
                             <div id="startof-experience"></div>
                             <div class="container">
                                 <div class="experience-title">
-                                    Where I've <span style="color: #df861d; font-weight: 600;">Worked</span>
+                                    Where I've <span style="color: var(--diamondOrange); font-weight: 600;">Worked</span>
                                 </div>
                                 <ul id="job-card-location" style="padding-top:50px">
                                     <!-- Updated with JS -->
@@ -215,7 +218,7 @@
                             <div id="startof-projects"></div>
                             <div class="container">
                                 <div class="project-title">
-                                    Some Fun <span style="color: #df861d; font-weight: 600;">Projects</span>
+                                    Some Fun <span style="color: var(--diamondOrange); font-weight: 600;">Projects</span>
                                 </div>
 
                                 <div class="project-body">
@@ -257,8 +260,8 @@
                             <div id="startof-contact"></div>
                             <div class="container">
                                 <div class="contact-title">
-                                    Want to Get <span style="color: #df861d; font-weight: 600;">in Touch</span>?<br>
-                                    <span class="contact-body">You can find me here...</span>
+                                    Want to Get <span style="color: var(--diamondOrange); font-weight: 600;">in Touch</span>?<br>
+                                    <span class="contact-body" style="font-weight: var(--fontWeight)">You can find me here...</span>
                                     <ul>
                                         <li><a href="https://github.com/AdityaHarvi" target="_blank"><i class="fa fa-github"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/aditya-harvi/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -283,6 +286,7 @@
     <script src="js/projectLoader.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/asciiArt.js"></script>
+    <script src="js/colorSwap.js"></script>
 </body>
 
 </html>

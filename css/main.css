@@ -1,3 +1,21 @@
+:root {
+    --bgColor: #1f1f1f;
+    --textColor: white;
+    --iconBackgroundDefault: white;
+    --iconDefault: black;
+    --iconHovered: white;
+    --cardbg: #0d0d0d;
+    --cardBorder: gray;
+    --shadow: rgba(235, 163, 30, 0.7);
+    --fontWeight: 500;
+    --projectCard: #282828;
+
+    --diamondOrange: "#DF861D";
+    --diamondDarkOrange: "#FDC029";
+    --iconOrange: "orange";
+    --brightOrange: "#fdc029";
+}
+
 * {
     transition: all 500ms ease-out;
     -webkit-transition: all 500ms ease-out;
@@ -10,8 +28,8 @@ html, body, section, .page {
     padding: 0;
     transition: all 0.2s cubic-bezier(.5, -0.005, 0.2, 1) !important;
     -webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
-    color: white;
-    background: #1f1f1f;
+    color: var(--textColor);
+    background: var(--bgColor);
     overflow-x: hidden;
 }
 

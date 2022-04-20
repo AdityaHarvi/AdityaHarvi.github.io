@@ -1,6 +1,6 @@
 #project-page {
     left: 200%;
-    background: #1f1f1f;
+    background: var(--bgColor);
     z-index: 3;
 }
 
@@ -14,7 +14,7 @@
 
 #project-page a {
     text-decoration: none;
-    color: white;
+    color: var(--textColor);
 }
 
 #project-page .project-title {
@@ -29,10 +29,10 @@
 }
 
 #project-page .project-container {
-    border: 0.3px solid gray;
+    border: 0.3px solid var(--cardBorder);
     max-width: 80%;
     padding: 10px;
-    background-color: #282828;
+    background-color: var(--cardbg);
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -52,13 +52,14 @@
 #project-page .project-description {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.1rem;
+    font-weight: var(--fontWeight);
 }
 
 #project-page .project-button {
     font-family: 'Corben', sans-serif;
     display: inline-block;
-    border: 0.3px solid #fdc029;
-    background-color: #1f1f1f;
+    border: 0.3px solid var(--brightOrange);
+    background-color: var(--bgColor);
     border-radius: 25px;
     padding: 5px 10px;
     cursor: pointer;
@@ -72,14 +73,14 @@
 
 #project-page .project-tech {
     font-family: 'Corben', sans-serif;
-    border: 0.3px solid #fdc029;
+    border: 0.3px solid var(--brightOrange);
     border-radius: 25px;
     padding: 5px 10px;
     margin-right: 10px;
     margin-top: 13px;
     font-size: 0.8rem;
     float: right;
-    color: orange;
+    color: var(--diamondDarkOrange);
     opacity: 0.8;
 }
 

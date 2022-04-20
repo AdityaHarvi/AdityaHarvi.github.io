@@ -1,6 +1,6 @@
 #contact-page {
     left: 300%;
-    background: #1f1f1f;
+    background: var(--bgColor);
     z-index: 4;
 }
 
@@ -34,7 +34,7 @@
 }
 #contact-page ul li i {
     position: absolute;
-    color: #000000;
+    color: var(--iconDefault);
     font-size: 35px;
     transition: .5s;
     margin-left: -15px;
@@ -48,7 +48,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--iconBackgroundDefault);
     text-align: center;
     transition: 0.5s;
     transform: translate(0,0px);
@@ -56,9 +56,10 @@
 }
 #contact-page ul li a:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -5px);
+    box-shadow: 0px 2px 5px var(--shadow);
 }
 #contact-page ul li a:hover > .fa {
-    color: white;
+    color: var(--iconHovered);
 }
 #contact-page ul li:nth-child(1) a:hover {
     background-color: #c9510c;
@@ -76,7 +77,7 @@
     text-decoration: none;
     padding: 20px;
     font-size: 1.25rem;
-    color: #fdc029;
+    color: var(--brightOrange);
     position: relative;
     max-width: 200px;
     text-align: center;
@@ -85,7 +86,7 @@
     font-weight: 700;
 }
 #contact-page .resume-button:after, .resume-button:before {
-    border: 2px solid orange;
+    border: 2px solid var(--diamondOrange);
     content: "";
     position: absolute;
     width: calc(100% - 6px);

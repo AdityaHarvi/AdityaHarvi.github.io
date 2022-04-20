@@ -1,6 +1,6 @@
 #details-page {
     left: 400%;
-    background: #101010;
+    background: var(--bgColor);
     z-index: 5;
 }
 
@@ -25,13 +25,16 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.5rem;
     text-align: center;
+    margin-left: -130px;
+    font-weight: var(--fontWeight);
 }
 #details-page .details-title-emphasis {
     font-weight: 900;
-    color: #df861d;
+    color: var(--diamondOrange);
 }
 #details-page .details-title-date {
     font-size: 1rem;
+    font-weight: var(--fontWeight);
 }
 
 #details-page .details-body-container {

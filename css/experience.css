@@ -1,6 +1,6 @@
 #experience-page {
     left: 100%;
-    background: #1f1f1f;
+    background: var(--bgColor);
     z-index: 2;
 }
 
@@ -28,13 +28,13 @@
     font-family: 'Corben', sans-serif;
     display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #0d0d0d;
+    background-color: var(--cardbg);
     transition: 0.3s;
     width: 400px;
     height: 300px;
 }
 #experience-page .custom-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(235, 163, 30, 0.7);
+    box-shadow: 0 8px 16px 0 var(--shadow);
     transform: translate(0, -5px);
     cursor: pointer;
 }
@@ -45,22 +45,26 @@
     margin-top: 50px;
     font-size: 2rem;
 }
+#experience-page .custom-card-date {
+    margin-top: 10px;
+}
 #experience-page .custom-card-body-header {
     margin-top: 50px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fdc029;
+    color: var(--diamondDarkOrange);
 }
 #experience-page .custom-card-body {
     margin-top: 50px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1rem;
+    font-weight: var(--fontWeight);
 }
 #experience-page hr {
     width: 30%;
     margin-left: 30px;
-    color: #fdc029;
+    color: var(--brightOrange);
     height: 3px;
     opacity: 0.9;
 }

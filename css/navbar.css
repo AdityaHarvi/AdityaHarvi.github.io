@@ -1,6 +1,6 @@
-
 .icon {
-    color: orange;
+    color: var(--iconOrange);
+    cursor: pointer;
 }
 
 #custom-navbar ul {
@@ -47,9 +47,9 @@
 }
 
 /* Shrinks the icons once clicked */
-#projects:target ul .icon,
-#experience:target ul .icon,
-#contact:target ul .icon {
+#projects:target ul .navIcon,
+#experience:target ul .navIcon,
+#contact:target ul .navIcon {
     transform: scale(.7); 
     transition-delay: .25s;
 }
@@ -59,7 +59,7 @@
 #experience:target #experience,
 #contact:target #contact {
     transform: scale(1.2) !important;
-    color: #fdc029 !important;
+    color: var(--brightOrange) !important;
 }
 
 @media (max-width: 632px) {
@@ -75,8 +75,7 @@
     #projects:target ul .icon,
     #experience:target ul .icon,
     #contact:target ul .icon {
-        transform: scale(.6); 
-        transition-delay: .25s;
+        transform: scale(.6);
     }
 
     /* Enlargens the icon once clicked */
@@ -84,7 +83,6 @@
     #experience:target #experience,
     #contact:target #contact {
         transform: scale(1) !important;
-        color: #fdc029 !important;
     }
 
     .credits {

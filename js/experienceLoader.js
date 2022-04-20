@@ -141,8 +141,7 @@ function loadJobCards() {
         cardBody.innerHTML = job.jobTitle;
 
         let cardDate = document.createElement("i");
-        cardDate.setAttribute("class", "fa fa-calendar");
-        cardDate.setAttribute("style", "margin-top: 10px")
+        cardDate.setAttribute("class", "fa fa-calendar custom-card-date");
 
         cardBodyContainer.appendChild(cardBody);
         cardBodyContainer.appendChild(cardDate);
