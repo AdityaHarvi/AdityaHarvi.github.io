@@ -1,8 +1,9 @@
 // GLOBAL VARIABLES
 let allowScrolling = true;
-const tabArray = ["home", "experience", "projects", "contact"];
+const tabArray = ["home", "about", "experience", "projects", "contact"];
 let pageConditions = {
     "home": [false, false],
+    "about": [false, false],
     "experience": [false, false],
     "projects": [false, false],
     "extra-details": [false, false],

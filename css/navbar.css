@@ -30,6 +30,7 @@
 }
 
 /* Sets the background of the navbar to be black when on a different page */
+#about:target .page#home-page,
 #projects:target .page#home-page, 
 #experience:target .page#home-page,
 #extra-details:target .page#home-page,
@@ -47,6 +48,7 @@
 }
 
 /* Shrinks the icons once clicked */
+#about:target ul .navIcon,
 #projects:target ul .navIcon,
 #experience:target ul .navIcon,
 #contact:target ul .navIcon {
@@ -55,6 +57,7 @@
 }
 
 /* Enlargens the icon once clicked */
+#about:target #about,
 #projects:target #projects,
 #experience:target #experience,
 #contact:target #contact {
