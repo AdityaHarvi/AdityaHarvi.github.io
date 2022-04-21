@@ -88,10 +88,10 @@ function loadProjects() {
         footer.setAttribute("class", "row");
 
         let footerCol1 = document.createElement("div");
-        footerCol1.setAttribute("class", "col-md-12");
+        footerCol1.setAttribute("class", "col-md-12 col-lg");
         
         let footerCol2 = document.createElement("div");
-        footerCol2.setAttribute("class", "col-md-12");
+        footerCol2.setAttribute("class", "col-md-12 col-lg");
 
         let link = document.createElement("div");
         link.setAttribute("class", "project-button");

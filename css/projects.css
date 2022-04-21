@@ -10,6 +10,7 @@
 
 #project-page ul {
     list-style: none;
+    margin-bottom: 20px;
 }
 
 #project-page a {
@@ -85,6 +86,10 @@
 }
 
 @media (max-width: 991px) {
+    #project-page .project-title {
+        margin-left: 5%;
+    }
+
     #project-page .project-tech {
         float: left;
     }
