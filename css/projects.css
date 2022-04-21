@@ -84,6 +84,12 @@
     opacity: 0.8;
 }
 
+@media (max-width: 991px) {
+    #project-page .project-tech {
+        float: left;
+    }
+}
+
 @media (max-width: 632px) {
     #projects:target .page#project-page {
         transform: translateX(-180%);
