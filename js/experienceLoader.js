@@ -1,10 +1,10 @@
 const jobList = [
     {
         "company": "Inflexion Games",
-        "jobTitle": "Game Programmer",
+        "jobTitle": "L2 UI Programmer",
         "date": "May 2022 - Present",
         "banner": "nightingale_banner.png",
-        "description": "This is my first official out-of-uni job! As part of the UI programming team on Nightingale, we essentially re-wrote the entire backend for the UI systems in the game to ensure they would be maintainable for the live service model that the studio is striving for. My greatest accomplishment to date is being the owner of the game's Big-Data UI system capable of loading, filtering, and sorting thousands of entries/data-assets at once. I've also taken lead on any localization issues/features we would require for the game (like fallback features for auto-scrolling text for example). I can't wait for release and for the community to check out the game. BREAK You check out the game on Steam and here is the game trailer if you were curious:",
+        "description": "This is my first official out-of-uni job! As part of the UI programming team on Nightingale, we essentially re-wrote the entire backend for the UI systems in the game to ensure they would be maintainable for the live service model that the studio is striving for. My greatest accomplishment to date is being the owner of the game's Big-Data UI system capable of loading, filtering, and sorting thousands of entries/data-assets at once. I've also taken lead on any localization issues/features we would require for the game (like fallback features for auto-scrolling text). BREAK You check out the game on Steam and here is the game trailer if you were curious:",
         "video": [
             "https://www.youtube.com/embed/raSjAJcftMs"
         ]
@@ -14,7 +14,7 @@ const jobList = [
         "jobTitle": "Associate Game Programmer",
         "date": "May 2021 - Dec 2021",
         "banner": "improbable_banner.png",
-        "description": "I joined Improbable's Canadian games studio as part of their UI team. I was able to work on many key features related to the UI infrastructure like a brand new window stack to standardize a lot of the systems currently in use. This role allowed me to take on a lot more responsibility and experience many pivotal points during the game development process."
+        "description": "I joined Improbable's Canadian games studio as part of their UI team. I was able to work on many key features related to the UI infrastructure like a brand new window stack to standardize the opening and closing of multiple windows overtop one another. This role allowed me to take on a lot more responsibility and experience becomming a system owner for the first time throughout my various internships."
     },
     {
         "company": "Intuit",
