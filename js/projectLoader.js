@@ -1,5 +1,17 @@
 const projectList = [
     {
+        "title": "Stanby (Game Jam)",
+        "description": "A small and thrilling puzzle-horror game where you try to escape a dark airplane fuselage by using a limited number of batteries to power spotlights. Keep away from the darkness, its where the monsters lurk!",
+        "date": "June • 2024",
+        "tech": [
+            "Blueprints",
+            "Unreal Engine 5",
+        ],
+        "links": [
+            "https://github.com/AdityaHarvi/game-jam-standby"
+        ]
+    },
+    {
         "title": "Tetrx",
         "description": "Check out my Capstone project for my final year of engineering! This is a novel take on the traditional tetris game allowing 4 players to play on a single arena. It even features a Jackbox-style spectator voting system (for those situations where you have more than 3 friends).",
         "date": "April • 2022",
@@ -10,7 +22,7 @@ const projectList = [
             "SocketIO"
         ],
         "links": [
-            "https://github.com/ECE493G14Capstone/Capstone",
+            "https://github.com/AdityaHarvi/Tetrix",
             "https://github.com/ECE493G14Capstone/Capstone/pulls?q=is%3Apr+author%3AAdityaHarvi+is%3Aclosed"
         ]
     },
@@ -28,19 +40,6 @@ const projectList = [
         ]
     },
     {
-        "title": "Android Book Sharing App",
-        "description": "An Android mobile app that can pair book owners with book borrowers. It even comes with a GPS navigator so you know exactly where to meet to swap books.",
-        "date": "November • 2020",
-        "tech": [
-            "Java",
-            "Firebase"
-        ],
-        "links": [
-            "https://github.com/CMPUT301F20T05/CriEngine",
-            "https://github.com/CMPUT301F20T05/CriEngine/pulls?q=is%3Apr+author%3AAdityaHarvi+is%3Aclosed"
-        ]
-    },
-    {
         "title": "Arduino Piano",
         "description": "A mini piano on an Arduino. This little guy can remember your tunes, play them back, and even score you on how well you played!",
         "date": "January • 2019",
@@ -49,6 +48,17 @@ const projectList = [
         ],
         "links": [
             "https://github.com/AdityaHarvi/Arduino-Piano"
+        ]
+    },
+    {
+        "title": "Arduino Invaders",
+        "description": "A recreation of the classic 'Space Invaders' but on an arduino! By merging together multiple breadboards and wiring lights/buttons in such a way that they can represent player movement and enemy collisions, this is my attempt at making a handheld gaming device.",
+        "date": "December • 2018",
+        "tech": [
+            "C++"
+        ],
+        "links": [
+            "https://github.com/AdityaHarvi/Arduino-Invaders"
         ]
     }
 ];
