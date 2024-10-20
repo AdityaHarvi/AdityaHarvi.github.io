@@ -21,7 +21,7 @@ const lightModePallet = {
     iconBackgroundDefault: "black",
     iconDefault: "white",
     iconHovered: "black",
-    cardbg: "gray",
+    cardbg: "#c9c9c9",
     cardBorder: "black",
     shadow: "black",
     fontWeight: "600",
