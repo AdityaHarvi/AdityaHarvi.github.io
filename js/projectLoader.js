@@ -15,7 +15,7 @@ const projectList = [
     },
     {
         "title": "Tetrx",
-        "description": "Check out my Capstone project for my final year of engineering! This is a novel take on the traditional tetris game allowing 4 players to play on a single arena. It even features a Jackbox-style spectator voting system (for those situations where you have more than 3 friends).",
+        "description": "This is a novel take on the traditional tetris game allowing 4 players to play on a single arena. It even features a Jackbox-style spectator voting system (for those situations where you have more than 3 friends).",
         "date": "April • 2022",
         "tech": [
             "NodeJS",
